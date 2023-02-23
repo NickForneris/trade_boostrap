@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/trade_boostrap/static/css/main.ced3154a.css",
     "main.js": "/trade_boostrap/static/js/main.0ea4270b.js",
     "index.html": "/trade_boostrap/index.html",
-    "main.ced3154a.css.map": "/trade_boostrap/static/css/main.ced3154a.css.map",
     "main.0ea4270b.js.map": "/trade_boostrap/static/js/main.0ea4270b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ced3154a.css",
     "static/js/main.0ea4270b.js"
   ]
 }

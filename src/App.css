@@ -1,77 +1,60 @@
-*, *:before, *:after {
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
-html, body {
-  margin: 0; 
-  height: 95vh;
-  font-size: 1.4vh;
-} 
-
-:root {
-  color-scheme: dark;
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.gold {
-  color: #FFD700;
+button:hover {
+  background-color: #0069d9;
 }
 
-.green {
-  color: #16F529;
+p {
+  margin-bottom: 10px;
+  line-height: 1.5;
 }
 
-.red {
-  color: #FD1C03;
-}
-
-.grey {
-  color: #DFE3E3;
-}
-
-.b-color {
-  background: #2ECC71!important;
-  border: none!important;
-  font-weight: 600!important;
-}
-
-Table, .border {
-  color: #DFE3E3!important;
-}
-
-.apexcharts-tooltip{
-  background-color: black !important;
-  color:white;
- }
- 
-.apexcharts-tooltip-title{
-  background-color: black !important;
-  color:white;
- }
-
-Button {
-  color: white!important;
-}
-
-.table-responsive {
-  height: 45vh!important;
-  max-height: 45vh!important;
-  overflow-y: scroll!important;
-  border: none!important;
-}
-
-.table-responsive thead {
-  position: sticky!important;
-  top: -1px!important;
-  z-index: 1!important;
-  background-color: #212529!important;
-  box-shadow:  inset 0 -1px 0 #DFE3E3;
-}
-
-.table-responsive tfoot {
-  font-weight: 600!important;
-  position: sticky!important;
-  bottom: -1px!important;
-  z-index: 1!important;
-  background-color: #212529!important;
-  box-shadow: inset 0 1px 0 #DFE3E3;
+@media only screen and (max-width: 600px) {
+  input,
+  textarea {
+    font-size: 14px;
+  }
+  
+  button {
+    font-size: 14px;
+  }
 }

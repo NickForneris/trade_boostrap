@@ -48,6 +48,7 @@ function App() {
         let index = Math.floor(Math.random() * trades.length);
         // keep resampling if the trade results in a loss greater than the maximum potential loss
         while (sample.length < trades.length && trades[index].pnl < -trades[index].maxLoss) {
+          console.log(trades[index].pnl,-trades[index].maxLoss)
           index = Math.floor(Math.random() * trades.length);
         }
         sample.push(trades[index]);

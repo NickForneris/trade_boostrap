@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trade_bootstrap/static/css/main.ced3154a.css",
+    "main.js": "/trade_bootstrap/static/js/main.bd477fa2.js",
+    "index.html": "/trade_bootstrap/index.html",
+    "main.ced3154a.css.map": "/trade_bootstrap/static/css/main.ced3154a.css.map",
+    "main.bd477fa2.js.map": "/trade_bootstrap/static/js/main.bd477fa2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ced3154a.css",
+    "static/js/main.bd477fa2.js"
+  ]
+}
